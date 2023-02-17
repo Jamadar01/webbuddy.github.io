@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta charset="utf-8">
+    <meta name="description" content="WebRTC code samples">
+    <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1, maximum-scale=1">
+    <meta itemprop="description" content="Client-side WebRTC code samples">
+    <meta itemprop="image" content="../../../images/webrtc-icon-192x192.png">
+    <meta itemprop="name" content="WebRTC code samples">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta id="theme-color" name="theme-color" content="#ffffff">
+
+    <base target="_blank">
+
+    <title>MediaStream Recording</title>
+
+    <link rel="icon" sizes="192x192" href="../../../images/webrtc-icon-192x192.png">
+    <link href="//fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="D:\IIT hackathn\new projects\main.css">
+    <link rel="stylesheet" href="D:\IIT hackathn\new projects\main.css">
+
+</head>
+
+<body>
+    <div class="d-flex" id="wrapper">
+        <!-- Sidebar-->
+        <div class="border-end bg-white" id="sidebar-wrapper">
+            <div class="sidebar-heading border-bottom bg-light">Web-buddy</div>
+            <div class="list-group list-group-flush">
+                <p><a href="D:\IIT hackathn\new projects\index.html"><i class="video" class="fa fa-video-camera mr-2" aria-hidden="true"></i>VideoStream</a></p>
+         
+          <p><a href="D:\IIT hackathn\new projects\Demo2\index.html"><i class="fa fa-houzz mr-2" class="audio" aria-hidden="true"></i>audiosettings</a></p>
+            </div>
+        </div>
+
+<div id="container">
+
+    <center><h1><span>VideoStream</span></h1></center>
+
+    <video id="gum" playsinline autoplay muted></video>
+    <video id="recorded" playsinline loop></video>
+
+    <div>
+        <button id="start" class="start">Start camera</button>
+        <button id="record" class="record" disabled>Start Recording</button>
+        <button id="play" class="play" disabled>Play</button>
+        <button id="download" class="download" disabled>Download</button>
+    </div>
+
+    <div>
+        <center> Recording format: <select id="codecPreferences" disabled></select></center>
+    </div>
+    <div>
+        <center><h4>Media Stream Constraints options</h4>
+            <p>Echo cancellation: <input type="checkbox" id="echoCancellation"></p></center>
+    </div>
+
+    <div>
+        <span id="errorMsg"></span>
+    </div>
+
+
+</div>
+
+<!-- include adapter for srcObject shim -->
+<script src="https://webrtc.github.io/adapter/adapter-latest.js"></script>
+<script src="D:\IIT hackathn\new projects\main.js" async></script>
+<script src="D:\IIT hackathn\new projects\main.js"></script>
+<script src="../../../js/lib/ga.js"></script>
+
+</body>
+</html>

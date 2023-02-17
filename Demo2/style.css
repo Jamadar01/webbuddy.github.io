@@ -1,0 +1,130 @@
+label {
+    display: block;
+    width: calc(100vw/2 - 2vw*2);
+  }
+  ol {
+    padding: 0;
+    list-style-type: none;
+  }
+  li {
+    display: flex;
+  }
+  input {
+    width: calc(100vw/2 - 2vw*2);
+  }
+  audio {
+    width: calc(100vw/2 - 2vw*2);
+  }
+  body {
+    padding: 5vh 2vw;
+  }
+
+  body {
+      background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+      background-size: 400% 400%;
+      animation: gradient 15s ease infinite;
+      height: 100vh;
+    }
+    
+    @keyframes gradient {
+      0% {
+        background-position: 0% 50%;
+      }
+      50% {
+        background-position: 100% 50%;
+      }
+      100% {
+        background-position: 0% 50%;
+      }
+    }
+
+
+  .record {
+    background-image: linear-gradient(to right, #667eea, #764ba2, #6B8DD6, #8E37D7);
+    box-shadow: 0 4px 15px 0 rgba(116, 79, 168, 0.75);
+    border: white;
+    width: 200px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    margin: 20px;
+    height: 55px;
+    text-align:center;
+    border: none;
+    background-size: 300% 100%;
+
+    border-radius: 50px;
+    transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+  .click{
+    color: #fff;
+    text-align:center;
+    width: 200px;
+    font-size: 12px;
+    font-weight: 100;
+    margin: 10px;
+    height: 25px;
+  }
+
+  .click1{
+    color: #fff;
+    text-align:center;
+    width: 200px;
+    font-size: 12px;
+    font-weight: 100;
+    margin: 10px;
+    height: 25px;
+  }
+
+  .click2{
+    color: #fff;
+    text-align:center;
+    width: 200px;
+    font-size: 12px;
+    font-weight: 100;
+    margin: 10px;
+    height: 25px;
+  }
+
+  h1 {
+    color:white;
+    height:30px;
+    font: size 20px; ;
+    
+  }
+  a{
+    color:White;
+    font-size: larger;
+    padding-left:40px;
+    padding-right:83px;
+  
+  }
+  a:hover{
+    background-color:white;
+    
+      color: orange;
+      background-size: 400% 400%;
+      animation: gradient 15s ease infinite;
+      height: 100vh;
+    
+      @keyframes gradient {
+        0% {
+          background-position: 0% 50%;
+        }
+        50% {
+          background-position: 100% 50%;
+        }
+        100% {
+          background-position: 0% 50%;
+        }
+      }
+    font-size: larger;
+    padding-left:40px;
+    padding-right:80px;
+    
+  }
